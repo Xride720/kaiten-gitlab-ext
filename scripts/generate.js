@@ -12,7 +12,7 @@ function changeStartFile(fileName) {
 }
 
 function generate() {
-  // if (fs.existsSync(dist())) fs.rmSync(dist(), { recursive: true });
+  // if (fs.existsSync(dist())) fs.rmSync(dist(), { recursive:  true });
   execSync('tsc --build --clean && tsc');
 
   changeStartFile('index.js');
