@@ -1,0 +1,21 @@
+{
+  "name": "kaitengitlabintegration",
+  "version": "1.2.0",
+  "description": "Add create branch, view commits and more functionality for kaiten card",
+  "main": "index.ts",
+  "scripts": {
+    "build": "node scripts/generate.js",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.10.6/public_projects/kaitengitlabintegration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.237",
+    "fs-extra": "^11.1.1",
+    "husky": "^8.0.3"
+  }
+}
